@@ -129,7 +129,6 @@ class FreeWeapons_SA
 public:
     FreeWeapons_SA() 
 	{
-        // Initialise your plugin here
 		static int keyPressTime = 0;
 		Events::gameProcessEvent += []
 		{
