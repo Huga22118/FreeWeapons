@@ -52,3 +52,8 @@ This mod is incompatible with Reverse Engineered III & VC (re3 & reVC).
 - Desert Eagle (Slot 3)
 - Sawn Off (Slot 3)
 - Molotov (Slot 3)
+
+# Hotkeys
+- F8 (SA/VC/III)
+- F7 (SA/VC)
+- F6 (SA)
