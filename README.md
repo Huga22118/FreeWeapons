@@ -8,6 +8,7 @@ This mod is incompatible with Reverse Engineered III & VC (re3 & reVC).
 
 # Requirements
 - Visual Studio 2019 or above (i don't know if 2015 and 2017 would work).
+- Plugin-SDK
 
 # GTA 3 Weapons
 - AK47
