@@ -42,6 +42,7 @@ Sorry for Bad english :)
 - Rocket Launcher (Slot 1)
 - Colt 45 (Slot 2)
 - Uzi (Slot 2)
+- Kruger (Slot 2)
 
 # GTA San Andreas Weapons
 - AK47 (Slot 1)
