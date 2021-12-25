@@ -8,7 +8,6 @@
 
 #ifdef GTA3
 #include "common.h"
-#include "CStreaming.h"
 #include "CTimer.h"
 #endif GTA3
 
@@ -28,7 +27,7 @@
 using namespace plugin;
 
 #ifdef GTA3
-class FreeWeapons_III 
+class FreeWeapons_III
 {
 public:
 	FreeWeapons_III()
