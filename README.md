@@ -7,8 +7,18 @@ The old FreeWeapons repository is obsolete
 This mod is incompatible with Reverse Engineered III & VC (re3 & reVC).
 
 # Requirements
-- Visual Studio 2019 or above (i don't know if 2015 and 2017 would work).
-- Plugin-SDK
+- Visual Studio [2019](https://download.visualstudio.microsoft.com/download/pr/b763973d-da6e-4025-834d-d8bc48e7d37f/9b7780b6641ceb4e62c0578d59eb3dbebeda8f5a3474ed253316b0b004d2466e/vs_Community.exe).
+- [Plugin-SDK](https://github.com/DK22Pac/plugin-sdk)
+
+# Build
+- Assuming if you have Visual Studio 2019 & Plugin-SDK.
+- Make sure if you have done Setup the GTA3 `GTAIII_DIR`, GTA SA `GTASA_DIR`, GTA VC `GTAVC_DIR` in your `Plugin-SDK Environtment Variable`.
+- Clone the repository with `git clone --recursive https://github.com/Huga22118/FreeWeapons.git`or download it.
+- Open `FreeWeapons.sln`.
+- Build the source code (Building Mode SA/VC/III).
+- Enjoy the mod.
+
+Sorry for Bad english :) 
 
 # GTA 3 Weapons
 - AK47
