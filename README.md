@@ -8,7 +8,7 @@ This mod is incompatible with Reverse Engineered III & VC (re3 & reVC).
 
 # Requirements
 - Visual Studio [2019](https://download.visualstudio.microsoft.com/download/pr/b763973d-da6e-4025-834d-d8bc48e7d37f/9b7780b6641ceb4e62c0578d59eb3dbebeda8f5a3474ed253316b0b004d2466e/vs_Community.exe).
-- [Plugin-SDK](https://github.com/DK22Pac/plugin-sdk)
+- [Plugin-SDK](https://github.com/DK22Pac/plugin-sdk).
 
 # Build
 - Assuming if you have Visual Studio 2019 & Plugin-SDK.
