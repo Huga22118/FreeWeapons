@@ -7,7 +7,7 @@ The old FreeWeapons repository is obsolete
 This mod is incompatible with Reverse Engineered III & VC (re3 & reVC).
 
 # Requirements
-- Visual Studio [2019](https://download.visualstudio.microsoft.com/download/pr/b763973d-da6e-4025-834d-d8bc48e7d37f/9b7780b6641ceb4e62c0578d59eb3dbebeda8f5a3474ed253316b0b004d2466e/vs_Community.exe).
+- [Visual Studio 2019](https://download.visualstudio.microsoft.com/download/pr/b763973d-da6e-4025-834d-d8bc48e7d37f/9b7780b6641ceb4e62c0578d59eb3dbebeda8f5a3474ed253316b0b004d2466e/vs_Community.exe).
 - [Plugin-SDK](https://github.com/DK22Pac/plugin-sdk).
 
 # Build
@@ -64,6 +64,7 @@ Sorry for Bad english :)
 - Molotov (Slot 3)
 - Tec 9 (Slot 3)
 - Minigun (Slot 3)
+- Camera (Slot 3)
 
 # Hotkeys
 - F8 (SA/VC/III)
