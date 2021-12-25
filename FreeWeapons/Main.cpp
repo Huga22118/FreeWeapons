@@ -242,9 +242,15 @@ public:
 				{
 					keyPressTime = CTimer::m_snTimeInMilliseconds;
 					CStreaming::RequestModel(MODEL_FLAME, 2);
+					CStreaming::RequestModel(MODEL_TEARGAS, 2);
+					CStreaming::RequestModel(MODEL_FIRE_EX, 2);
 					CStreaming::LoadAllRequestedModels(false);
 					carl->GiveWeapon(WEAPON_FTHROWER, 1000, true);
+					carl->GiveWeapon(WEAPON_TEARGAS, 1000, true);
+					carl->GiveWeapon(WEAPON_EXTINGUISHER, 1000, true);
 					CStreaming::SetModelIsDeletable(MODEL_FLAME);
+					CStreaming::SetModelIsDeletable(MODEL_TEARGAS);
+					CStreaming::SetModelIsDeletable(MODEL_FIRE_EX);
 				}
 		};
     }

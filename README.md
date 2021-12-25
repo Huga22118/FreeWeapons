@@ -66,6 +66,8 @@ Sorry for Bad english :)
 - Minigun (Slot 3)
 - Camera (Slot 3)
 - Flame Thrower (Slot 4)
+- Teargas (Slot 4)
+- Fire Extinguisher (Slot 4)
 
 # Hotkeys
 - F8 (SA/VC/III) Slot 1
