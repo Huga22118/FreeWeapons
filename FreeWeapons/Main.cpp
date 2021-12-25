@@ -183,6 +183,7 @@ public:
 				CStreaming::RequestModel(MODEL_MP5LNG, 2);
 				CStreaming::RequestModel(MODEL_GRENADE, 2);
 				CStreaming::RequestModel(MODEL_IRGOGGLES, 2);
+				CStreaming::RequestModel(MODEL_SPRAYCAN, 2);
 				CStreaming::LoadAllRequestedModels(false);
 				carl->GiveWeapon(WEAPON_M4, 1000, true);
 				carl->GiveWeapon(WEAPON_PISTOL_SILENCED, 1000, true);
@@ -192,6 +193,7 @@ public:
 				carl->GiveWeapon(WEAPON_MP5, 1000, true);
 				carl->GiveWeapon(WEAPON_GRENADE, 1000, true);
 				carl->GiveWeapon(WEAPON_INFRARED, 1, true);
+				carl->GiveWeapon(WEAPON_SPRAYCAN, 1000, true);
 				carl->SetCurrentWeapon(WEAPON_M4);
 				carl->SetCurrentWeapon(WEAPON_PISTOL_SILENCED);
 				carl->SetCurrentWeapon(WEAPON_SNIPERRIFLE);
@@ -200,6 +202,7 @@ public:
 				carl->SetCurrentWeapon(WEAPON_MP5);
 				carl->SetCurrentWeapon(WEAPON_GRENADE);
 				carl->SetCurrentWeapon(WEAPON_INFRARED);
+				carl->SetCurrentWeapon(WEAPON_SPRAYCAN);
 				CStreaming::SetModelIsDeletable(MODEL_M4);
 				CStreaming::SetModelIsDeletable(MODEL_SILENCED);
 				CStreaming::SetModelIsDeletable(MODEL_SNIPER);
@@ -208,6 +211,7 @@ public:
 				CStreaming::SetModelIsDeletable(MODEL_MP5LNG);
 				CStreaming::SetModelIsDeletable(MODEL_GRENADE);
 				CStreaming::SetModelIsDeletable(MODEL_IRGOGGLES);
+				CStreaming::SetModelIsDeletable(MODEL_SPRAYCAN);
 			}
 			if (carl && KeyPressed(VK_F6) && CTimer::m_snTimeInMilliseconds - keyPressTime > 175)
 			{
