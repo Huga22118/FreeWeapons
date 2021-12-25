@@ -237,7 +237,15 @@ public:
 				CStreaming::SetModelIsDeletable(MODEL_TEC9);
 				CStreaming::SetModelIsDeletable(MODEL_MINIGUN);
 				CStreaming::SetModelIsDeletable(MODEL_CAMERA);
-			}
+			    }
+				if (carl && KeyPressed(VK_F5) && CTimer::m_snTimeInMilliseconds - keyPressTime > 175)
+				{
+					keyPressTime = CTimer::m_snTimeInMilliseconds;
+					CStreaming::RequestModel(MODEL_FLAME, 2);
+					CStreaming::LoadAllRequestedModels(false);
+					carl->GiveWeapon(WEAPON_FTHROWER, 1000, true);
+					CStreaming::SetModelIsDeletable(MODEL_FLAME);
+				}
 		};
     }
 } FreeWeapons_SA;

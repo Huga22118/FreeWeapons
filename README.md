@@ -65,8 +65,10 @@ Sorry for Bad english :)
 - Tec 9 (Slot 3)
 - Minigun (Slot 3)
 - Camera (Slot 3)
+- Flame Thrower (Slot 4)
 
 # Hotkeys
-- F8 (SA/VC/III)
-- F7 (SA/VC)
-- F6 (SA)
+- F8 (SA/VC/III) Slot 1
+- F7 (SA/VC) Slot 2
+- F6 (SA) Slot 3
+- F5 (SA) Slot 4
