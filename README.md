@@ -11,7 +11,7 @@ This mod is incompatible with Reverse Engineered III & VC (re3 & reVC).
 - [Plugin-SDK](https://github.com/DK22Pac/plugin-sdk).
 
 # Build
-- Assuming if you have Visual Studio 2019 & Plugin-SDK.
+- Assuming you have Visual Studio 2019 & Plugin-SDK.
 - Make sure if you have done Setup the GTA3 `GTAIII_DIR`, GTA SA `GTASA_DIR`, GTA VC `GTAVC_DIR` in your `Plugin-SDK Environtment Variable`.
 - Clone the repository with `git clone --recursive https://github.com/Huga22118/FreeWeapons.git`or download it.
 - Open `FreeWeapons.sln`.
