@@ -53,6 +53,7 @@ This mod is incompatible with Reverse Engineered III & VC (re3 & reVC).
 - Sawn Off (Slot 3)
 - Molotov (Slot 3)
 - Tec 9 (Slot 3)
+- Minigun (Slot 3)
 
 # Hotkeys
 - F8 (SA/VC/III)

@@ -216,19 +216,23 @@ public:
 				CStreaming::RequestModel(MODEL_MOLOTOV, 2);
 				CStreaming::RequestModel(MODEL_SAWNOFF, 2);
 				CStreaming::RequestModel(MODEL_TEC9, 2);
+				CStreaming::RequestModel(MODEL_MINIGUN, 2);
 				CStreaming::LoadAllRequestedModels(false);
 				carl->GiveWeapon(WEAPON_DESERT_EAGLE, 1000, true);
 				carl->GiveWeapon(WEAPON_MOLOTOV, 1000, true);
 				carl->GiveWeapon(WEAPON_SAWNOFF, 1000, true);
 				carl->GiveWeapon(WEAPON_TEC9, 1000, true);
+				carl->GiveWeapon(WEAPON_MINIGUN, 1500, true);
 				carl->SetCurrentWeapon(WEAPON_DESERT_EAGLE);
 				carl->SetCurrentWeapon(WEAPON_MOLOTOV);
 				carl->SetCurrentWeapon(WEAPON_SAWNOFF);
 				carl->SetCurrentWeapon(WEAPON_TEC9);
+				carl->SetCurrentWeapon(WEAPON_MINIGUN);
 				CStreaming::SetModelIsDeletable(MODEL_DESERT_EAGLE);
 				CStreaming::SetModelIsDeletable(MODEL_MOLOTOV);
 				CStreaming::SetModelIsDeletable(MODEL_SAWNOFF);
 				CStreaming::SetModelIsDeletable(MODEL_TEC9);
+				CStreaming::SetModelIsDeletable(MODEL_MINIGUN);
 			}
 		};
     }
