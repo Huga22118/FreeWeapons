@@ -102,7 +102,7 @@ public:
 				CStreaming::SetModelIsDeletable(MODEL_BOMB);
 				CStreaming::SetModelIsDeletable(MODEL_M4);
 				CStreaming::SetModelIsDeletable(MODEL_ROCKETLA);
-			}
+			} // slot 1 
 			if (tommy && KeyPressed(VK_F7) && CTimer::m_snTimeInMilliseconds - keyPressTime > 175)
 			{
 				keyPressTime = CTimer::m_snTimeInMilliseconds;
@@ -119,7 +119,7 @@ public:
 				CStreaming::SetModelIsDeletable(MODEL_COLT45);
 				CStreaming::SetModelIsDeletable(MODEL_UZI);
 				CStreaming::SetModelIsDeletable(MODEL_RUGER);
-			}
+			} // slot 2 
 		};
 	}
 } FreeWeapons_VC;
@@ -175,7 +175,7 @@ public:
 				CStreaming::SetModelIsDeletable(MODEL_SATCHEL);
 				CStreaming::SetModelIsDeletable(MODEL_BOMB);
 				CStreaming::SetModelIsDeletable(MODEL_NVGOGGLES);
-			}
+			} // slot 1 
 			if (carl && KeyPressed(VK_F7) && CTimer::m_snTimeInMilliseconds - keyPressTime > 175)
 			{
 				keyPressTime = CTimer::m_snTimeInMilliseconds;
@@ -216,7 +216,7 @@ public:
 				CStreaming::SetModelIsDeletable(MODEL_GRENADE);
 				CStreaming::SetModelIsDeletable(MODEL_IRGOGGLES);
 				CStreaming::SetModelIsDeletable(MODEL_SPRAYCAN);
-			}
+			} // slot 2 
 			if (carl && KeyPressed(VK_F6) && CTimer::m_snTimeInMilliseconds - keyPressTime > 175)
 			{
 				keyPressTime = CTimer::m_snTimeInMilliseconds;
@@ -245,7 +245,7 @@ public:
 				CStreaming::SetModelIsDeletable(MODEL_TEC9);
 				CStreaming::SetModelIsDeletable(MODEL_MINIGUN);
 				CStreaming::SetModelIsDeletable(MODEL_CAMERA);
-			    }
+			    } // slot 3 
 				if (carl && KeyPressed(VK_F5) && CTimer::m_snTimeInMilliseconds - keyPressTime > 175)
 				{
 					keyPressTime = CTimer::m_snTimeInMilliseconds;
@@ -259,7 +259,7 @@ public:
 					CStreaming::SetModelIsDeletable(MODEL_FLAME);
 					CStreaming::SetModelIsDeletable(MODEL_TEARGAS);
 					CStreaming::SetModelIsDeletable(MODEL_FIRE_EX);
-				}
+				} // slot 4 
 		};
     }
 } FreeWeapons_SA;
