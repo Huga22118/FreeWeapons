@@ -60,7 +60,7 @@ Sorry for Bad english :)
 - MP5 (Slot 2)
 - Grenade (Slot 2)
 - Infrared Goggles (Slot 2)
-- Spraycan
+- Spraycan (Slot 2)
 - Desert Eagle (Slot 3)
 - Sawn Off (Slot 3)
 - Molotov (Slot 3)
