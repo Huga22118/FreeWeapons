@@ -21,7 +21,7 @@ You need to point your GTA Directory `GTAIII_DIR` `GTAVC_DIR` `GTASA_DIR` in `Pl
 
 # Build
 - Assuming you have Visual Studio 2019 & Plugin-SDK.
-- Clone the repository with `git clone --recursive https://github.com/Huga22118/FreeWeapons.git`or download it.
+- Clone the repository with `git clone --recursive https://github.com/Huga22118/FreeWeapons.git`.
 - Open `installer-launcher.exe` and Setup `Plugin-SDK Environtment Variable` in your plugin-sdk directory.
 - Install Plugin-SDK Template and Generate solution.
 - Open `plugin.sln`.
