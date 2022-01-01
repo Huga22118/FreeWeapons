@@ -30,6 +30,8 @@ You need to point your GTA Directory `GTAIII_DIR` `GTAVC_DIR` `GTASA_DIR` in `Pl
 - Build the source code (Building Mode SA/VC/III).
 - Enjoy the mod.
 
+Skip step 3-6 if you have Plugin-SDK Installed
+
 Sorry for Bad english :) 
 
 # GTA 3 Weapons
