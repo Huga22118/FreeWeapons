@@ -1,7 +1,7 @@
 # FreeWeapons
 Reworked FreeWeapons for SA/VC/III.
 
-The old [FreeWeapons repository] (https://github.com/Huga22118/FreeWeapons-Old) is obsolete.
+The old [FreeWeapons repository](https://github.com/Huga22118/FreeWeapons-Old) is obsolete.
 
 # What does this mod do?
 Giving Weapons by pressing specific buttons.
