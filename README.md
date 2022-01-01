@@ -1,10 +1,19 @@
 # FreeWeapons
 Reworked FreeWeapons for SA/VC/III.
 
-The old FreeWeapons repository is obsolete
+The old [FreeWeapons repository] (https://github.com/Huga22118/FreeWeapons-Old) is obsolete.
+
+# What does this mod do?
+Giving Weapons by pressing specific buttons.
+
+# Version
+- GTA San Andreas 1.0 US
+- GTA Vice City 1.0 US
+- GTA III 1.0 US
+- ~~Reverse Engineered III & VC~~.
 
 # Note
-This mod is incompatible with Reverse Engineered III & VC (re3 & reVC).
+You need to point your GTA Directory `GTAIII_DIR` `GTAVC_DIR` `GTASA_DIR` in `Plugin-SDK Environment Variables` to be moved there.
 
 # Requirements
 - [Visual Studio 2019](https://download.visualstudio.microsoft.com/download/pr/b763973d-da6e-4025-834d-d8bc48e7d37f/9b7780b6641ceb4e62c0578d59eb3dbebeda8f5a3474ed253316b0b004d2466e/vs_Community.exe).
@@ -12,8 +21,11 @@ This mod is incompatible with Reverse Engineered III & VC (re3 & reVC).
 
 # Build
 - Assuming you have Visual Studio 2019 & Plugin-SDK.
-- Make sure if you have done Setup the GTA3 `GTAIII_DIR`, GTA SA `GTASA_DIR`, GTA VC `GTAVC_DIR` in your `Plugin-SDK Environtment Variable`.
 - Clone the repository with `git clone --recursive https://github.com/Huga22118/FreeWeapons.git`or download it.
+- Open `installer-launcher.exe` and Setup `Plugin-SDK Environtment Variable` in your plugin-sdk directory.
+- Install Plugin-SDK Template and Generate solution.
+- Open `plugin.sln`.
+- Build plugin-sdk source code.
 - Open `FreeWeapons.sln`.
 - Build the source code (Building Mode SA/VC/III).
 - Enjoy the mod.
