@@ -109,16 +109,20 @@ public:
 				CStreaming::RequestModel(MODEL_COLT45, 2);
 				CStreaming::RequestModel(MODEL_UZI, 2);
 				CStreaming::RequestModel(MODEL_RUGER, 2);
+				CStreaming::RequestModel(MODEL_SNIPER, 2);
 				CStreaming::LoadAllRequestedModels(false);
 				tommy->GiveWeapon(WEAPONTYPE_PISTOL, 1000, true);
 				tommy->GiveWeapon(WEAPONTYPE_UZI, 1000, true);
 				tommy->GiveWeapon(WEAPONTYPE_RUGER, 1000, true);
+				tommy->GiveWeapon(WEAPONTYPE_SNIPERRIFLE, 1000, true);
 				tommy->SetCurrentWeapon(WEAPONTYPE_PISTOL);
 				tommy->SetCurrentWeapon(WEAPONTYPE_UZI);
 				tommy->SetCurrentWeapon(WEAPONTYPE_RUGER);
+				tommy->SetCurrentWeapon(WEAPONTYPE_SNIPERRIFLE);
 				CStreaming::SetModelIsDeletable(MODEL_COLT45);
 				CStreaming::SetModelIsDeletable(MODEL_UZI);
 				CStreaming::SetModelIsDeletable(MODEL_RUGER);
+				CStreaming::SetModelIsDeletable(MODEL_SNIPER);
 			} // slot 2 
 		};
 	}

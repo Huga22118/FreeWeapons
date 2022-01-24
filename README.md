@@ -8,8 +8,8 @@ Giving Weapons by pressing specific buttons.
 
 # Version
 - GTA San Andreas 1.0 US
-- GTA Vice City 1.0 US
-- GTA III 1.0 US
+- GTA Vice City 1.0 EN
+- GTA III 1.0 EN
 - ~~Reverse Engineered III & VC~~.
 
 # Note
@@ -57,6 +57,7 @@ Sorry for Bad english :)
 - Colt 45 (Slot 2)
 - Uzi (Slot 2)
 - Kruger (Slot 2)
+- Sniper Rifle (Slot 2)
 
 # GTA San Andreas Weapons
 - AK47 (Slot 1)
